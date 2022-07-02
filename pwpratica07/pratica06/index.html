@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lista de Estudantes</h1>
+    <form action="">
+        <input type="text"
+            id="searchstring"
+            name="searchstring"
+            placeholder="nome, matricula ou código">
+        <input type="submit"
+            value="pesquisar" id="search"> <br>
+        <!-- Filtros -->
+        <input type="radio"
+            name="searchfilter"
+            value="all"
+            checked>Tudo <input type="radio"
+            name="searchfilter"
+            value="cod">Código <input type="radio"
+            name="searchfilter"
+            value="mat">Matrícula <input type="radio"
+            name="searchfilter"
+            value="name">Nome
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Matricula</th>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01145</td>
+                <td>21534648787</td>
+                <td>JOse Olinda</td>
+                <td>joseolinda@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
